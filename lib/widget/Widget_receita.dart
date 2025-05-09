@@ -1,8 +1,7 @@
+import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/config/aplicativo.dart';
 import 'package:flutter_application_1/config/rotas.dart';
 import 'package:flutter_application_1/widget/Widget_botao.dart';
-import 'package:fl_chart/fl_chart.dart';
 
 class WidgetReceita extends StatelessWidget {
   const WidgetReceita({super.key});
@@ -44,6 +43,12 @@ class WidgetReceita extends StatelessWidget {
                 ),
               ),
             ),
+            WidgetBotao(
+              rota: Rotas.gastos,
+              rotulo: 'Gastos',
+              onPressed: () {},
+            ),
+            const SizedBox(height: 10),
             WidgetBotao(
               rota: Rotas.inicio,
               rotulo: 'Voltar para o início',
