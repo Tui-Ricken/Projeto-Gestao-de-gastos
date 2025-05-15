@@ -45,16 +45,20 @@ class WidgetGastos extends StatelessWidget {
             ),
             const SizedBox(height: 10), // Espaço entre o gráfico e o texto
             WidgetBotao(
-              rota: Rotas.receitas,
-              rotulo: 'Receitas',
-              onPressed: () {},
-            ),
+                rota: Rotas.receitas,
+                rotulo: 'Receitas',
+                onPressed: () {},
+                cor: Colors.greenAccent),
             const SizedBox(height: 10),
             WidgetBotao(
-              rota: Rotas.inicio,
-              rotulo: 'Voltar para o início',
-              onPressed: () {},
-            ),
+                rota: Rotas.inicio,
+                rotulo: 'Voltar para o início',
+                onPressed: () {},
+                cor: Colors.greenAccent),
+            IconButton(
+                onPressed: () {},
+                icon: const Icon(Icons.add),
+                color: Colors.black87),
           ],
         ),
       ),

@@ -16,19 +16,21 @@ class WidgetInicio extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text('Tela Inicial'),
-            const SizedBox(height: 400,),
+            const SizedBox(
+              height: 400,
+            ),
             //Image.asset('assets/imagem.(...)') como por imagem na tela inicial -> adicionar a imagem no assets -> adicionar no pubspec.yaml -> depois por esse comando.
             WidgetBotao(
-              rota: Rotas.gastos,
-              rotulo: 'Ir para Gastos',
-              onPressed: () {},
-            ),
-            const SizedBox(height:20),
+                rota: Rotas.gastos,
+                rotulo: 'Ir para Gastos',
+                onPressed: () {},
+                cor: Colors.greenAccent),
+            const SizedBox(height: 20),
             WidgetBotao(
-              rota: Rotas.receitas,
-              rotulo: 'Ir para Receitas',
-              onPressed: () {},
-            ),
+                rota: Rotas.receitas,
+                rotulo: 'Ir para Receitas',
+                onPressed: () {},
+                cor: Colors.greenAccent),
           ],
         ),
       ),
