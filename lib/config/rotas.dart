@@ -3,4 +3,5 @@ class Rotas {
   static const String gastos = '/gastos';
   static const String receitas = '/receitas';
   static const String login = '/';
+  static const String pessoa = '/pessoa';
 }

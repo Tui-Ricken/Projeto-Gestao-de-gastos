@@ -34,6 +34,11 @@ class WidgetLogin extends StatelessWidget {
                 rotulo: 'Entrar',
                 onPressed: () {},
                 cor: Colors.lightBlue),
+            const SizedBox(height: 20,),
+            WidgetBotao(rota:Rotas.pessoa,
+             rotulo: 'Cadastro',
+              onPressed:(){},
+              cor: Colors.lightBlue)
           ],
         )));
   }

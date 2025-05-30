@@ -31,6 +31,7 @@ class WidgetInicio extends StatelessWidget {
                 rotulo: 'Ir para Receitas',
                 onPressed: () {},
                 cor: Colors.greenAccent),
+
           ],
         ),
       ),

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/config/rotas.dart';
-import 'package:flutter_application_1/widget/Widget_botao.dart';
 import 'package:flutter_application_1/widget/Widget_gastos.dart';
 import 'package:flutter_application_1/widget/Widget_inicio.dart';
 import 'package:flutter_application_1/widget/Widget_login.dart';
 import 'package:flutter_application_1/widget/Widget_receita.dart';
+import 'package:flutter_application_1/widget/form_pessoa.dart';
 
 class Aplicativo extends StatelessWidget {
   const Aplicativo({super.key});
@@ -22,6 +22,7 @@ class Aplicativo extends StatelessWidget {
           Rotas.inicio: (context) => const WidgetInicio(),
           Rotas.gastos: (context) => const WidgetGastos(),
           Rotas.receitas: (context) => const WidgetReceita(),
+          Rotas.pessoa: (context) => FormPessoa(),
         },
         debugShowCheckedModeBanner: false);
   }
